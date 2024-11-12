@@ -127,3 +127,94 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* dispositivi fino a 768px width */
+
+@media screen and (max-width: 768px) {
+    
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+
+/* dispositivi fino a 480px  */
+
+@media screen and (max-width: 480px) {
+    
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0;
+    }
+
+    .lessons h2 {
+        margin-bottom: 1rem;
+        
+    }
+
+    .lessons .col {
+        width: 100vw;
+    }
+
+    .col {
+        width: 100vw;
+    }
+
+    .text {
+        margin: 0 70px;
+    }
+
+    .card {
+        max-width: 100%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    
+    .steps .col {
+        width: 100%;
+    }
+    
+
+    .steps p .text {
+        padding: 20px;
+    }
+
+    .why-us h2 {
+        font-size: 3rem;
+    }
+
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 70%;
+    }
+    
+    .why-us {
+        background-color: #222;
+        margin-bottom: 0;
+        margin-top: -50px;
+        padding-bottom: 50px;
+    }
+
+    .why-us > .container > h2 {
+        padding-top: 50px;
+    }
+
+    section .steps .text-center {
+        background: #222;
+    }
+}
